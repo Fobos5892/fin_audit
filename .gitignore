@@ -1,0 +1,10 @@
+build/
+.deps/
+.qtcreator/
+CMakeUserPresets.json
+*.user
+*.autosave
+.vscode/
+.idea/
+*.db
+*.db-*

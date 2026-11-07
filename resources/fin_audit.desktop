@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Fin Audit
+Name[ru]=Fin Audit
+Comment=Family budget
+Comment[ru]=Семейный бюджет
+Exec=fin_audit
+Icon=fin_audit
+Terminal=false
+Categories=Office;Finance;Qt;
+StartupWMClass=fin_audit

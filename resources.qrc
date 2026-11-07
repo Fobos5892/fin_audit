@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sql/migrations/001_init.sql</file>
+        <file>qml/main.qml</file>
+        <file>qml/splash/SplashWindow.qml</file>
+        <file>qml/components/UiTheme.qml</file>
+        <file>qml/components/AppButton.qml</file>
+        <file>qml/components/AppComboBox.qml</file>
+        <file>qml/components/AppDialog.qml</file>
+        <file>qml/components/LabeledField.qml</file>
+        <file>qml/components/FinanceCard.qml</file>
+        <file>qml/components/DonutChart.qml</file>
+        <file>qml/components/LabeledDonutChart.qml</file>
+        <file>qml/components/BudgetRingChart.qml</file>
+        <file>qml/components/TransactionMiniList.qml</file>
+        <file>qml/components/PrivacyAmount.qml</file>
+        <file>qml/components/GoalProgressBar.qml</file>
+        <file>qml/components/NavRail.qml</file>
+        <file>qml/components/LineChart.qml</file>
+        <file>qml/components/qmldir</file>
+        <file>qml/views/DashboardView.qml</file>
+        <file>qml/views/TransactionsView.qml</file>
+        <file>qml/views/InvestmentsView.qml</file>
+        <file>qml/views/GoalsView.qml</file>
+        <file>qml/views/MortgageView.qml</file>
+        <file>qml/views/CapitalView.qml</file>
+        <file>qml/views/SettingsView.qml</file>
+        <file>qml/views/qmldir</file>
+        <file>resources/icons/app_icon.jpg</file>
+        <file>resources/icons/app_icon_32.png</file>
+        <file>resources/icons/app_icon_48.png</file>
+        <file>resources/icons/app_icon_64.png</file>
+        <file>resources/icons/app_icon_128.png</file>
+        <file>resources/icons/app_icon_256.png</file>
+    </qresource>
+</RCC>

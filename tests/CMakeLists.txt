@@ -1,0 +1,11 @@
+function(fb_add_test name)
+    add_executable(${name} ${ARGN})
+    target_link_libraries(${name} PRIVATE FamilyBudgetCore Qt6::Test)
+    add_test(NAME ${name} COMMAND ${name})
+endfunction()
+
+fb_add_test(tst_moneyformatter tst_moneyformatter.cpp)
+fb_add_test(tst_mortgagecalculator tst_mortgagecalculator.cpp)
+fb_add_test(tst_portfolio tst_portfolio.cpp)
+fb_add_test(tst_goalallocator tst_goalallocator.cpp)
+fb_add_test(tst_database tst_database.cpp)

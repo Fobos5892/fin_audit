@@ -1,0 +1,8 @@
+module views
+DashboardView 1.0 DashboardView.qml
+TransactionsView 1.0 TransactionsView.qml
+GoalsView 1.0 GoalsView.qml
+InvestmentsView 1.0 InvestmentsView.qml
+MortgageView 1.0 MortgageView.qml
+CapitalView 1.0 CapitalView.qml
+SettingsView 1.0 SettingsView.qml

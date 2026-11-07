@@ -1,0 +1,15 @@
+module components
+singleton UiTheme 1.0 UiTheme.qml
+AppButton 1.0 AppButton.qml
+AppComboBox 1.0 AppComboBox.qml
+AppDialog 1.0 AppDialog.qml
+LabeledField 1.0 LabeledField.qml
+FinanceCard 1.0 FinanceCard.qml
+DonutChart 1.0 DonutChart.qml
+LabeledDonutChart 1.0 LabeledDonutChart.qml
+BudgetRingChart 1.0 BudgetRingChart.qml
+TransactionMiniList 1.0 TransactionMiniList.qml
+PrivacyAmount 1.0 PrivacyAmount.qml
+GoalProgressBar 1.0 GoalProgressBar.qml
+NavRail 1.0 NavRail.qml
+LineChart 1.0 LineChart.qml
