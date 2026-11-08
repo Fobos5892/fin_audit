@@ -64,6 +64,22 @@ ctest --test-dir build --output-on-failure
 # or: cmake --build --preset default && ctest --preset default
 ```
 
+## Installer (Windows)
+
+Requires [Inno Setup 6](https://jrsoftware.org/isinfo.php): `winget install JRSoftware.InnoSetup`.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\package-windows.ps1
+```
+
+The script builds Release, collects the exe with Qt dependencies via `windeployqt` into `build\dist\FinAudit`, and compiles `installer\fin_audit.iss` into `build\installer\FinAudit-Setup-<version>.exe`.
+
+- `-SkipBuild` — reuse the existing exe
+- `-SkipInstaller` — portable folder only
+- `-QtDir`, `-MinGWDir`, `-Preset` — custom Qt/compiler paths
+
+User data (`family_budget.db`) lives in `%APPDATA%` and is kept on uninstall.
+
 ## First run
 
 1. Launch `FamilyBudget`.
